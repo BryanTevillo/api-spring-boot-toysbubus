@@ -48,7 +48,7 @@ application.properties
 application.yml
 application-dev.properties
 application-prod.properties
-
+application-test.properties 
 # Ignorar archivos de entorno
 .env
 .env.*

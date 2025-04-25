@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.toysbubus.toysbubus_aplication.machines.application.dto.SaveMachineRequest;
 import com.toysbubus.toysbubus_aplication.machines.domain.model.Machine;
 import com.toysbubus.toysbubus_aplication.machines.domain.ports.input.CreateMachineUseCase;
+import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -19,7 +20,7 @@ public class MachineController {
     private final CreateMachineUseCase createMachineUseCase;
 
     @PostMapping
-    public ResponseEntity<Machine> postMethodName(@RequestBody SaveMachineRequest request) {
+    public ResponseEntity<Machine> postMethodName(@RequestBody @Valid SaveMachineRequest request) {
         // TODO: process POST request
         Machine machine = createMachineUseCase.createMachine(request);
         return ResponseEntity.ok(machine);

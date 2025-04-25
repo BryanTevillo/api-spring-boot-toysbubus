@@ -4,6 +4,7 @@ package com.toysbubus.toysbubus_aplication.machines.infrastructure.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -21,7 +22,8 @@ import lombok.Setter;
 public class MachineEntity {
 
     @Id // JPA: this is the primary key of the table
-    @GeneratedValue // JPA: this is the auto-generated value of the primary key
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // JPA: this is the strategy to generate the
+                                                        // primary key
     private Long id; // JPA: this is the id of the machine
     private String name; // JPA: this is the name of the machine
     private String description; // JPA: this is the description of the machine

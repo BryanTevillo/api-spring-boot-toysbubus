@@ -1,10 +1,10 @@
-package com.toysbubus.toysbubus_aplication.machines.application.service;
+package com.toysbubus.toysbubus_aplication.modules.machines.application.service;
 
 import org.springframework.stereotype.Service;
-import com.toysbubus.toysbubus_aplication.machines.application.dto.SaveMachineRequest;
-import com.toysbubus.toysbubus_aplication.machines.domain.model.Machine;
-import com.toysbubus.toysbubus_aplication.machines.domain.ports.input.CreateMachineUseCase;
-import com.toysbubus.toysbubus_aplication.machines.domain.ports.output.MachineRepositoryPort;
+import com.toysbubus.toysbubus_aplication.modules.machines.application.dto.SaveMachineRequest;
+import com.toysbubus.toysbubus_aplication.modules.machines.domain.model.Machine;
+import com.toysbubus.toysbubus_aplication.modules.machines.domain.ports.input.CreateMachineUseCase;
+import com.toysbubus.toysbubus_aplication.modules.machines.domain.ports.output.MachineRepositoryPort;
 import lombok.AllArgsConstructor;
 
 

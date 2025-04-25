@@ -1,4 +1,4 @@
-package com.toysbubus.toysbubus_aplication.machines.infrastructure.entities;
+package com.toysbubus.toysbubus_aplication.modules.machines.infrastructure.entities;
 
 
 

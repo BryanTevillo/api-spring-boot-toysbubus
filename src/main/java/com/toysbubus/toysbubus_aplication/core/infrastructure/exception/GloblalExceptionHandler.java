@@ -1,4 +1,4 @@
-package com.toysbubus.toysbubus_aplication.machines.infrastructure.exception;
+package com.toysbubus.toysbubus_aplication.core.infrastructure.exception;
 
 import java.util.HashMap;
 import java.util.Map;

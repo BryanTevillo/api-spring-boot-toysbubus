@@ -1,4 +1,4 @@
-package com.toysbubus.toysbubus_aplication.machines.application.dto;
+package com.toysbubus.toysbubus_aplication.modules.machines.application.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

@@ -1,11 +1,11 @@
-package com.toysbubus.toysbubus_aplication.machines.infrastructure.adapters.input;
+package com.toysbubus.toysbubus_aplication.modules.machines.infrastructure.adapters.input;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.toysbubus.toysbubus_aplication.machines.application.dto.SaveMachineRequest;
-import com.toysbubus.toysbubus_aplication.machines.domain.model.Machine;
-import com.toysbubus.toysbubus_aplication.machines.domain.ports.input.CreateMachineUseCase;
+import com.toysbubus.toysbubus_aplication.modules.machines.application.dto.SaveMachineRequest;
+import com.toysbubus.toysbubus_aplication.modules.machines.domain.model.Machine;
+import com.toysbubus.toysbubus_aplication.modules.machines.domain.ports.input.CreateMachineUseCase;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;

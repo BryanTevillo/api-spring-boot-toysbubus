@@ -1,11 +1,11 @@
-package com.toysbubus.toysbubus_aplication.machines.infrastructure.adapters.output;
+package com.toysbubus.toysbubus_aplication.modules.machines.infrastructure.adapters.output;
 
 
 import org.springframework.stereotype.Repository;
-import com.toysbubus.toysbubus_aplication.machines.domain.model.Machine;
-import com.toysbubus.toysbubus_aplication.machines.domain.ports.output.MachineRepositoryPort;
-import com.toysbubus.toysbubus_aplication.machines.infrastructure.entities.MachineEntity;
-import com.toysbubus.toysbubus_aplication.machines.infrastructure.repositories.MachineJpaRepository;
+import com.toysbubus.toysbubus_aplication.modules.machines.domain.model.Machine;
+import com.toysbubus.toysbubus_aplication.modules.machines.domain.ports.output.MachineRepositoryPort;
+import com.toysbubus.toysbubus_aplication.modules.machines.infrastructure.entities.MachineEntity;
+import com.toysbubus.toysbubus_aplication.modules.machines.infrastructure.repositories.MachineJpaRepository;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor

@@ -1,4 +1,4 @@
-package com.toysbubus.toysbubus_aplication.machines.domain.model;
+package com.toysbubus.toysbubus_aplication.modules.machines.domain.model;
 
 
 // * here all the imports are added

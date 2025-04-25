@@ -1,10 +1,12 @@
 package com.toysbubus.toysbubus_aplication.machines.infrastructure.entities;
 
 
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -12,6 +14,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
 @Entity // JPA: this is a table in the database
 @Table(name = "machines") // JPA: this is the name of the table in the database
 // The table name is pluralized to follow the convention of naming tables in the database

@@ -11,6 +11,7 @@ import lombok.Data;
  * setters TODO for these fields, as well as other utility methods like equals(), hashCode(), and
  * toString().
  */
+
 @Data
 public class Machine {
     private long id;
@@ -20,4 +21,5 @@ public class Machine {
     private String location;
     private String status;
     private String model;
+    private String cost;
 }

@@ -15,7 +15,6 @@ import lombok.AllArgsConstructor;
  */
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
 public class Machine {
     private Long id;
@@ -23,10 +22,9 @@ public class Machine {
     private String description;
     private String imageUrl;
     private String location;
-    private String status;
+    private Boolean status;
     private String model;
     private Double cost;
-
 
 }
 

@@ -3,7 +3,6 @@ package com.toysbubus.toysbubus_aplication.machines.domain.model;
 
 // * here all the imports are added
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 
 /*

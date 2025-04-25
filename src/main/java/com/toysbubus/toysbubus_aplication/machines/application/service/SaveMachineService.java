@@ -1,5 +1,6 @@
 package com.toysbubus.toysbubus_aplication.machines.application.service;
 
+import org.springframework.stereotype.Service;
 import com.toysbubus.toysbubus_aplication.machines.application.dto.SaveMachineRequest;
 import com.toysbubus.toysbubus_aplication.machines.domain.model.Machine;
 import com.toysbubus.toysbubus_aplication.machines.domain.ports.input.CreateMachineUseCase;
@@ -8,6 +9,7 @@ import lombok.AllArgsConstructor;
 
 
 @AllArgsConstructor
+@Service
 public class SaveMachineService implements CreateMachineUseCase {
     private final MachineRepositoryPort machineRepositoryPort;
 

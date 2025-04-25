@@ -1,6 +1,6 @@
 package com.toysbubus.toysbubus_aplication.machines.infrastructure.adapters.output;
 
-import org.checkerframework.checker.units.qual.m;
+
 import org.springframework.stereotype.Repository;
 import com.toysbubus.toysbubus_aplication.machines.domain.model.Machine;
 import com.toysbubus.toysbubus_aplication.machines.domain.ports.output.MachineRepositoryPort;

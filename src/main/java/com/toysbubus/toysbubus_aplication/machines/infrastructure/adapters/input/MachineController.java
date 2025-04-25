@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 public class MachineController {
     private final CreateMachineUseCase createMachineUseCase;
 
-    @PostMapping("path")
+    @PostMapping
     public ResponseEntity<Machine> postMethodName(@RequestBody SaveMachineRequest request) {
         // TODO: process POST request
         Machine machine = createMachineUseCase.createMachine(request);

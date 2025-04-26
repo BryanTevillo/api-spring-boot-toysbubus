@@ -1,7 +1,6 @@
 package com.toysbubus.toysbubus_aplication.modules.machines.infrastructure.adapters.output;
 
 
-import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Repository;
 import com.toysbubus.toysbubus_aplication.modules.machines.domain.model.Machine;

@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class SaveMachineRequest {
+public class MachineRequest {
     @NotBlank(message = "Name is mandatory")
     private String name;
     @NotBlank(message = "Model is mandatory")

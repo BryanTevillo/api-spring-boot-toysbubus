@@ -3,6 +3,7 @@ package com.toysbubus.toysbubus_aplication.modules.machines.domain.model;
 
 // * here all the imports are added
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 
 /*
@@ -15,6 +16,7 @@ import lombok.AllArgsConstructor;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class Machine {
     private Long id;
     private String name;
